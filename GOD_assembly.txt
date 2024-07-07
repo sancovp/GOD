@@ -1,0 +1,57 @@
+### START
+what we will do is make the GOD DUO in a separate system from the provider API codebase, and then we will only import the provider API codebase when we are absolutely ready (superassistant and etc)
+
+So we can code it as if we have a superassistant from oai_s until then, such that the BaseAgent only requires a user_context and a superassistant that has a run_assistant method, tool use, and already has a base, meta, and super module stack that enables complex chain operations for it
+
+So ONLY set up the DUO for Human to talk with Acolyte in a way that is connected in a CICD with github, using tools that call funcs that are pipelines on the codebase, pygithub, and workflows in github
+
+Then we will build on that
+
+Right?
+
+### 
+
+
+Lets diagram the architecture:
+
+Modules:
+Provider Type Modules:
+Provider Base, Meta, Super
+Assistant Base, Meta, Super
+
+Functions Type Modules:
+Functions Base, Meta, Super
+
+Buildings:
+Repository
+Factory
+Service
+Center: requires all buildings, plus all modules, plus all configurators for a Place
+
+Configurators:
+Base Config Json
+Type Config Jsons
+Config Class
+Base Class
+Subclass
+
+ConfiguratorInputApps:
+Main Menu
+SubMenus
+Assistants
+
+Core Pattern:
+For each major component:
+Configurator
+Base, Meta, Super (n-1,2,3-skeleton)
+Buildings (repo, factory, service | this is different than Center which is in a Place and has an Agent and Roads connecting it to Railroads that are used in ToOTs)
+ToOT Station: this is the OPERATOR's Building (comprehensive top level pipelines of interconnected ) and it uses the GIINT script (General Intuitive Intelligence Neural Turntable) to construct comprehensive ToOTs
+Then, wrap it in a ConfiguratorInputApp and give it to a MachineAgent to interact with as a sidechain when you interact with that MachineAgent
+
+What makes a Place?:
+* Modules (if importing an API, and base is the wrapper, meta is the expansion, super is the metaprogrammatic controller)
+* Agent
+* Handler (helper that holds the python functions the agent's callable funcs interact with but dont generate anything for)
+* Buildings
+* Roads (these are pipelines that involve the {place.center}(), but were not the base level idea of its creation; equivalent to provider base modules but for agents) these are funcs from modules that actually call the agent and combine it with other places
+* Railroads (these are extended/amplified/evolved roads)

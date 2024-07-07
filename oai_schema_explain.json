@@ -1,0 +1,15 @@
+"{{function_name}}": {
+   "type": "function",
+     "function": {
+        "name": "string",
+        "description": "string",
+        "parameters": {
+            "type": "object",
+            "properties": {
+              "type": "object",
+              "description": "string"
+          }
+        },
+        "required": ["{{required_properties}}"]
+      }
+}
