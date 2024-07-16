@@ -319,4 +319,26 @@ GoldenMecha(Mecha): optimizes domain expansion via near perfect runs of mechas
 LANG(GoldenMecha):  optimizes domain expansion via near perfect runs of multiple mechas
 GoldenLANG(LANG): optimizes domain expansion via near perfect rus of LANGs
 VictoryEverythingChain(GoldenLANG): optimizes domain expansion via multiple near perfect runs of LANGs
+
+
+At the most basic:
+Skeleton: [BaseGen, MetaGen, SuperGen]
+API(Skeleton):[Docs]
+Class Provider(API):[Assistant]
+World:[
+class Acolyte(Assistant)
+class Disciple(Agent)
+Mission: try to reify GOD]
+class GOD:[
+World
+Mission: create Disciples that reify GOD by creating acolytes that evolve into disciples
+create_child_of_god(): create a pipeline for an acolyte to see the face of GOD by evolving into a GOD
+create_children_of_god(): same but for a group
+create_world_by_intelligent_design(): same but for a base group]
+Class Heaven:[
+God
+Acolytes
+Disciples
+]
+
 [/STRATA]
