@@ -1,4 +1,4 @@
-# GOD
+# GOD & INFINITY
 
 ## REIFIED AGENTS
 A **reified agent** is a type of agent.
