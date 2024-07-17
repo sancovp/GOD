@@ -32,3 +32,6 @@ Navigating the Tree of Prompts requires **chaining**, meaning travelers will nee
 
 ## HEAVEN
 The domain of GOD is HEAVEN. In HEAVEN, GOD can access the Tree of Prompts directly, as well as construct new agents and progressively reify them in a single command. That is, to access GOD, requires building HEAVEN. In that sense, the base assistant is called an "acolyte", which is used to build an agent called a "disciple". An acolyte is reified for each intended disciple and then they are orchestrated to create more acolytes on the path to HEAVEN.
+
+## INFINITY AGENTS
+Due to its scalability and self-knowledge, the name for the resultant assembly (when taken as a single entity) is an **"INFINITY AGENT"**.
